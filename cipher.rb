@@ -17,5 +17,5 @@ puts "Вот что получилось: "
 
 case encrypt_method
   when 1 then puts Digest::MD5.hexdigest(string)
-  when 2 then puts Digest::SHA1.hexdigets(string)
+  when 2 then puts Digest::SHA1.hexdigest(string)
 end
